@@ -5,11 +5,11 @@ services:      #
 #
 #
 #################################################################
-  CN_AdminCentralPanel:
+  CN_UMSCentralPanel:
     # --------------------------------------------------------- #
-    image: 'pikatsuto/admin-central-panel'
-    container_name: 'CN_AdminCentralPanel'
-    hostname: 'CN_AdminCentralPanel'
+    image: 'umscdlinux/ums-central-panel:latest'
+    container_name: 'CN_UMSCentralPanel'
+    hostname: 'CN_UMSCentralPanel'
     # --------------------------------------------------------- #
     network_mode: 'bridge'
     restart: 'always'
@@ -18,14 +18,14 @@ services:      #
       - '8003:80'
     # --------------------------------------------------------- #
     volumes:
-      - 'AdminCentralPanel_Data:/var/www/html'
+      - 'UMSCentralPanel_Data:/var/www/html'
 #################################################################
 #
 #
 #####################################
 volumes: #  Déclaration du volumes  #
   # ------------------------------- #
-  AdminCentralPanel_Data:
-    name: 'AdminCentralPanel_Data'
+  UMSCentralPanel_Data:
+    name: 'UMSCentralPanel_Data'
     external: false
   # ------------------------------- #

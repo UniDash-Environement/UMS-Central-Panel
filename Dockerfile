@@ -7,10 +7,7 @@ RUN apt-get -y install python3 python3-pip
 
 RUN apt-get -y install apache2
 RUN a2enmod cgi
-
 RUN service apache2 restart
-
-RUN pip3 install art
 
 #enable cgi in the website root
 #second block to allow .htaccess
@@ -22,6 +19,8 @@ RUN echo "                       \n \
 </Directory>                     \n \
 " >> /etc/apache2/apache2.conf
 
+RUN rm -rf /var/www/html/*
+ADD ./site/* /var/www/html/
 RUN chmod -R u+rwx,g+x,o+x /var/www/html
 
 RUN ln -sf /usr/bin/python /usr/local/bin/python
