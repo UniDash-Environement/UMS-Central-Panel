@@ -143,20 +143,20 @@ for folder in data["folder"]:
     for site in folder["content"]:
         if site["include"]:
             if site["dark"]:
-                iframe_content = f"""
+                include_content = f"""
     <div id="{site["name"]}" class="showClass">
-      <div class='iframe_bg'></div>
+      <div class='include_bg'></div>
       <iframe src="{site["url"]}" class="dark"></iframe>
     </div>
 """
             else:
-                iframe_content = f"""
+                include_content = f"""
     <div id="{site["name"]}" class="showClass">
-      <div class="include-bg">
+      <div class="include-bg"></div>
       <iframe src="{site["url"]}""></iframe>
     </div>
 """
-            print(iframe_content)
+            print(include_content)
 
 start_form = """
     <div id="Settings" class="showClass">

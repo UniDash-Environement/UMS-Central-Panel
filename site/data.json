@@ -5,14 +5,14 @@
       "content": [
         {
           "name": "Exemple",
-          "url": "https://www.google.com/",
-          "iframe": true,
+          "url": "https://dictionnaire.lerobert.com/definition/exemple",
+          "include": true,
           "dark": false
         },
         {
           "name": "Exemple 2",
-          "url": "https://www.google.com/",
-          "iframe": true,
+          "url": "https://dictionnaire.lerobert.com/definition/exemple",
+          "include": true,
           "dark": true
         }
       ]
@@ -22,13 +22,13 @@
       "content": [
         {
           "name": "Exemple",
-          "url": "https://www.google.com/",
-          "iframe": false
+          "url": "https://dictionnaire.lerobert.com/definition/exemple",
+          "include": false
         },
         {
           "name": "Exemple 2",
-          "url": "https://www.google.com/",
-          "iframe": false
+          "url": "https://dictionnaire.lerobert.com/definition/exemple",
+          "include": false
         }
       ]
     },
@@ -37,8 +37,8 @@
       "content": [
         {
           "name": "Exemple Dark",
-          "url": "https://www.google.com/",
-          "iframe": true,
+          "url": "https://dictionnaire.lerobert.com/definition/exemple",
+          "include": true,
           "dark": true
         }
       ]
@@ -48,7 +48,7 @@
     {
       "name": "Exemple",
       "icon": "exemple.png",
-      "link": "https://www.google.com/"
+      "link": "https://dictionnaire.lerobert.com/definition/exemple"
     }
   ]
 }
