@@ -1,0 +1,31 @@
+################
+version: '3.9' #
+services:      #
+################
+#
+#
+#################################################################
+  CN_AdminCentralPanel:
+    # --------------------------------------------------------- #
+    image: 'pikatsuto/admin-central-panel'
+    container_name: 'CN_AdminCentralPanel'
+    hostname: 'CN_AdminCentralPanel'
+    # --------------------------------------------------------- #
+    network_mode: 'bridge'
+    restart: 'always'
+    # --------------------------------------------------------- #
+    ports:
+      - '8003:80'
+    # --------------------------------------------------------- #
+    volumes:
+      - 'AdminCentralPanel_Data:/var/www/html'
+#################################################################
+#
+#
+#####################################
+volumes: #  Déclaration du volumes  #
+  # ------------------------------- #
+  AdminCentralPanel_Data:
+    name: 'AdminCentralPanel_Data'
+    external: false
+  # ------------------------------- #

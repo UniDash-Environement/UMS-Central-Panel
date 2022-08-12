@@ -1,0 +1,54 @@
+{
+  "folder": [
+    {
+      "name": "Include",
+      "content": [
+        {
+          "name": "Exemple",
+          "url": "https://www.google.com/",
+          "iframe": true,
+          "dark": false
+        },
+        {
+          "name": "Exemple 2",
+          "url": "https://www.google.com/",
+          "iframe": true,
+          "dark": true
+        }
+      ]
+    },
+    {
+      "name": "Link",
+      "content": [
+        {
+          "name": "Exemple",
+          "url": "https://www.google.com/",
+          "iframe": false
+        },
+        {
+          "name": "Exemple 2",
+          "url": "https://www.google.com/",
+          "iframe": false
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "content": [
+        {
+          "name": "Exemple Dark",
+          "url": "https://www.google.com/",
+          "iframe": true,
+          "dark": true
+        }
+      ]
+    }
+  ],
+  "desktops": [
+    {
+      "name": "Exemple",
+      "icon": "exemple.png",
+      "link": "https://www.google.com/"
+    }
+  ]
+}
