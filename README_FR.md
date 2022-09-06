@@ -16,19 +16,19 @@
 
 ## Description:
 > Admin Contrôle Panel est un panel administrateur de centralisation
-> pour toute vos interfaces. Il contient par defaut WebTerminal,
-> Nginix Proxy Reverse, Portainer, Dozzle et 2 lien vers Freenom
+> pour toute vos interfaces. Il contient par défaut WebTerminal,
+> Nginix Proxy Reverse, Portainer, Dozzle et 2 liens vers Freenom
 > et CloudFlere
 
 ## Aventages:
 
 ### Simple:
-> C'est une interface simple à éditer car elle n'est composé que
-> d'un fichier json pour définir la liste des panels et leur mode
+> C'est une interface simple à éditer car elle n'est composée que
+> d'un fichier json pour définir la liste des panels et leurs modes
 
 ### Centralisé:
-> cette interface permets de centraliser tout les panel
-> sous un system d'onglet splitable sur un seul écren
+> Cette interface permet de centraliser tout les panels
+> sous un système d'onglets splitable sur un seul écran
 
 ## Photo
 
