@@ -10,32 +10,33 @@
 
 > ## [![Powerm1nt_Icon](https://avatars.githubusercontent.com/u/76876089?s=48&v=4)](https://github.com/Powerm1nt) [Powerm1nt](https://github.com/Powerm1nt)
 
-[README_FR 🇫🇷](README_FR.md)
+[README_EN 🇺🇸](README.md)
 
-## Full deployment in the blink of an eye
+## Déploiement complet en un claquement de doigt
 
 ## Description:
-> Admin Control Panel is a centralized admin panel for all your
-> interfaces. It contains by default WebTerminal, Nginix Proxy Reverse,
-> Portainer, Dozzle and 2 links to Freenom and CloudFlere
+> Admin Contrôle Panel est un panel administrateur de centralisation
+> pour toute vos interfaces. Il contient par defaut WebTerminal,
+> Nginix Proxy Reverse, Portainer, Dozzle et 2 lien vers Freenom
+> et CloudFlere
 
 ## Aventages:
 
 ### Simple:
-> This is a simple interface to edit because it is only composed of
-> A json file to define the list of panels and their mode
+> C'est une interface simple à éditer car elle n'est composé que
+> d'un fichier json pour définir la liste des panels et leur mode
 
-### Centralized:
-> This interface allows you to centralize all the panels
-> under a splitable tab system on a single screen
+### Centralisé:
+> cette interface permets de centraliser tout les panel
+> sous un system d'onglet splitable sur un seul écren
 
-## Screen
+## Photo
 
 <img src="UMS-Screen.png" width=100%/>
 
 <img src="UMS-Screen-Include.png" width=100%/>
 
-## Start command
+## Commande de lancement
 
 ```bash
 bash start.sh
