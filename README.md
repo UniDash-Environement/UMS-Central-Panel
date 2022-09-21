@@ -13,19 +13,15 @@
 ## Full deployment in the blink of an eye
 
 ## Description:
-> Admin Control Panel is a centralized admin panel for all your
-> interfaces. It contains by default WebTerminal, Nginix Proxy Reverse,
-> Portainer, Dozzle and 2 links to Freenom and CloudFlere
+> Admin Control Panel is a centralized admin panel for all your interfaces. It contains by default WebTerminal, Nginix Proxy Reverse, Portainer, Dozzle and 2 links to Freenom and CloudFlere
 
 ## Aventages:
 
 ### Simple:
-> This is a simple interface to edit because it is only composed of
-> A json file to define the list of panels and their mode
+> It is a simple interface to edit because it is only composed of a json file to define the list of panels and their modes
 
 ### Centralized:
-> This interface allows you to centralize all the panels
-> under a splitable tab system on a single screen
+> This interface allows to centralize all the panels under a splitable tab system on a single screen
 
 ## Screen
 
